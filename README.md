@@ -55,7 +55,7 @@ student-assessment-report/
 │ ├── package.json # Frontend dependencies
 │ ├── vite.config.js # Vite configuration
 │ ├── eslint.config.js # ESLint configuration
-│ └── README.md # This file
+└── README.md # Project documentation
 
 This structure follows **real-world React application architecture**, separating layout, report logic, and reusable components.
 
