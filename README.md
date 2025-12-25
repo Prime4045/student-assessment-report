@@ -26,36 +26,36 @@ The application displays a student’s speaking performance across **multiple En
 
 ## 📁 Project Structure
 
+```
 student-assessment-report/
-│
 ├── backend/
-│ ├── data.js # All exam scores & student data
-│ ├── server.js # Express API
-│ └── package.json # Backend dependencies
-│
+│   ├── data.js          # All exam scores & student data
+│   ├── server.js        # Express API
+│   └── package.json     # Backend dependencies
 ├── frontend/
-│ ├── public/ # Static assets
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── layout/
-│ │ │ │ └── Header.jsx
-│ │ │ ├── report/
-│ │ │ │ ├── CandidateInfo.jsx
-│ │ │ │ ├── ScoreTabs.jsx
-│ │ │ │ ├── SummaryPanel.jsx
-│ │ │ │ ├── SkillScores.jsx
-│ │ │ │ ├── ScoreChart.jsx
-│ │ │ │ └── Feedback.jsx
-│ │ │ └── ScoreSummary.jsx
-│ │ ├── api.js
-│ │ ├── App.jsx
-│ │ ├── main.jsx
-│ │ └── index.css
-│ ├── index.html # Main HTML file
-│ ├── package.json # Frontend dependencies
-│ ├── vite.config.js # Vite configuration
-│ ├── eslint.config.js # ESLint configuration
-└── README.md # Project documentation
+│   ├── public/          # Static assets
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── layout/
+│   │   │   │   └── Header.jsx
+│   │   │   ├── report/
+│   │   │   │   ├── CandidateInfo.jsx
+│   │   │   │   ├── ScoreTabs.jsx
+│   │   │   │   ├── SummaryPanel.jsx
+│   │   │   │   ├── SkillScores.jsx
+│   │   │   │   ├── ScoreChart.jsx
+│   │   │   │   └── Feedback.jsx
+│   │   │   └── ScoreSummary.jsx
+│   │   ├── api.js
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   ├── index.html       # Main HTML file
+│   ├── package.json     # Frontend dependencies
+│   ├── vite.config.js   # Vite configuration
+│   ├── eslint.config.js # ESLint configuration
+└── README.md            # Project documentation
+```
 
 This structure follows **real-world React application architecture**, separating layout, report logic, and reusable components.
 
